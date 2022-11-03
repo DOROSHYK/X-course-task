@@ -5,33 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https: //fonts.googleapis.com/css2? family= Oswald:wght@300;500 & display=swap"
+      rel="stylesheet"
+    />
     <title>specific-book</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <a href="../signin/index.html">on singin</a>
-      <h1>JS BAND STORE/ Olga Doroshuk</h1>
+      <h1 class="header-title-style">JS BAND STORE/ Olga Doroshuk</h1>
 
       <div>
-        <img
-          src="../img/cart.svg"
-          alt="іконка корзини для покупок"
-          width="35"
-        />
+        <a href="#" class="logo">
+          <img
+            src="../img/cart.svg"
+            alt="іконка корзини для покупок"
+            width="35"
+            class="logo-cart"
+          />
+        </a>
+
         <button>Sihn-Out</button>
-        <img
-          class="style-border-img"
-          src="../img/avatar.png"
-          alt="фото користувача"
-          width="35"
-        />
+        <a href="#">
+          <img
+            class="user-image"
+            src="../img/avatar.png"
+            alt="фото користувача"
+            width="35"
+          />
+        </a>
       </div>
 
       <hr />
     </header>
 
     <main>
-      <!-- карточка книги -->
+      <!-- карта однієї книги -->
       <article>
         <img
           src="../img/avatars-CBHm1GPyWVXctJAz-B0ySmg-t240x240.jpg"
@@ -56,9 +66,23 @@
       </article>
       <!-- прайс -->
 
-      <div class="border">
+      <div class="container-prise-book">
         <p>Prise, $"...................17</p>
-        <p>Count......................3</p>
+        <div class="container-quantity-book">
+          <label for="quantity">
+            <span class="quantity-book-style">Count</span>
+          </label>
+          <input
+            class="quantity-book"
+            type="number"
+            id="quantity"
+            pattern="[0-9]*"
+            max="999"
+            min="1"
+            value="1"
+          />
+        </div>
+
         <p>Total price................51</p>
         <button>Add to cart</button>
       </div>
