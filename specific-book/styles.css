@@ -7,7 +7,6 @@
 }
 
 *, ::before, ::after {
-
     box-sizing: border-box;
 }
 
@@ -25,6 +24,10 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+margin: 0;
 }
 
 
@@ -50,6 +53,21 @@ ul {
 
 }
 
+.user-navigation {
+    margin-left: auto;
+    display: flex;
+
+}
+
+.main-user-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.main-user-navigation .list-user-navigation+.list-user-navigation {
+
+    margin-left: 20px;
+}
 
 .user-image {
     border-radius: 40;
@@ -77,10 +95,37 @@ font-family: 'Roboto Condensed', sans-serif;
 
 /* book cart */
 
-.container-prise-book {
-    display: inline-block;
+.card-one-book{
+    display: flex;
 
-    border: dashed;
+}
+
+.image-of-book {
+    width: 396px;
+    margin-right: 15px;
+}
+
+.about-book {
+    padding: 15px;
+}
+
+.main-container-book {
+   /* display: flex; */
+   padding-top: 55px;
+   padding-bottom: 55px; 
+}
+
+.container-prise-book {
+   padding: 15px;
+   margin-left: auto;
+    /* display: inline-block; */
+
+    /* border: dashed; */
+}
+
+.price-book {
+    display: flex;
+    flex-direction: column;
 }
 
 .container-quantity-book {
@@ -93,27 +138,12 @@ font-family: 'Roboto Condensed', sans-serif;
     margin-right: 10px;
 }
 
-.quantity-bool {
-    width: 100%;
-    height: 1.9em;
+.quantity-book {
+    width: 35px;
+    height: 20px;
+    border: 1px solid var(--accent-color);
     
 }
 
-.user-navigation {
-    margin-left: auto;
-    display: flex;
-    
-}
 
-.main-user-navigation {
-display: flex;
-align-items: center;
-}
-
-.main-user-navigation 
-.list-user-navigation +
-.list-user-navigation {
-
-    margin-left: 20px;
-}
 
