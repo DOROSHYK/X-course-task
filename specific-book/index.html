@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -13,6 +13,14 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
     <title>specific-book</title>
   </head>
   <body>
@@ -20,9 +28,9 @@
       <div class="container">
         <div class="header-position">
           <a href="../signin/index.html" class="header-title-style">
-            <p>JS BAND STORE/ Olga Doroshuk</p>
+            <p class="store-style">JS BAND STORE/ Olga Doroshuk</p>
           </a>
-          <div class="user-navigation">
+          <div class="user-auth-navigation">
             <ul class="main-user-navigation">
               <li class="list-user-navigation">
                 <a href="#" class="logo">
@@ -57,6 +65,7 @@
 
     <main>
       <div class="container">
+        <h1 hidden>Карточка однієї книги</h1>
         <section class="main-container-book">
           <!-- карта однієї книги -->
           <article class="card-one-book">
@@ -71,23 +80,29 @@
                 <tbody>
                   <tr>
                     <td><span>Book author</span></td>
+                    <td><span>not found</span></td>
                   </tr>
                   <tr>
                     <td><span>Book level</span></td>
+                    <td><span>not found</span></td>
                   </tr>
                   <tr>
                     <td><span>Book tags</span></td>
+                    <td><span>not found</span></td>
                   </tr>
                 </tbody>
               </table>
 
               <p><span>book description</span></p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Recusandae, quae? Odit porro facere, amet maxime odio
+              </p>
             </div>
 
             <div class="container-prise-book">
               <form class="price-book">
                 <label for="price"><span>Prise, $</span> <span>1</span> </label>
-                <!-- <input type="number" id="price" /> -->
 
                 <label for="quantity">
                   <span class="quantity-book-style">Count</span>
@@ -103,7 +118,11 @@
                 />
 
                 <p>Total price................51</p>
-                <button>Add to cart</button>
+                <div class="button-box">
+                  <button class="list-user-button" type="submit">
+                    Add to cart
+                  </button>
+                </div>
               </form>
             </div>
           </article>

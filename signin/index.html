@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,24 +13,34 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>X-course-task</title>
   </head>
   <body>
-    <header>
-      <h1>JS BAND STORE/ Olga Doroshuk</h1>
-      <a href="../specific-book/index.html">on specific book</a>
-      <hr />
+    <header class="header">
+      <div class="container">
+        <a href="https://github.com/DOROSHYK" class="header-title-style">
+          <p class="store-style">JS BAND STORE/ Olga Doroshuk</p>
+        </a>
+        <!-- <a href="../specific-book/index.html">on specific book</a> -->
+      </div>
     </header>
     <main>
-      <section>
-        <img src="../img/avatars-CBHm1GPyWVXctJAz-B0ySmg-t240x240.jpg" alt="" />
-        <form>
-          <label for="user-name">User name</label>
-          <input name="type-user-name" id="user-name" />
-          <button>Sign in</button>
-        </form>
-      </section>
+      <div class="container">
+        <section>
+          <h1 hidden>Реєстрація юзера</h1>
+          <img
+            src="../img/avatars-CBHm1GPyWVXctJAz-B0ySmg-t240x240.jpg"
+            alt=""
+          />
+          <form>
+            <label for="user-name">User name</label>
+            <input name="type-user-name" id="user-name" />
+            <button>Sign in</button>
+          </form>
+        </section>
+      </div>
     </main>
     <footer></footer>
   </body>
