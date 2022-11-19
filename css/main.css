@@ -1,1 +1,199 @@
-/*# sourceMappingURL=main.css.map */
+.signin-user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-img {
+  width: 160px;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.user-name {
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 auto 5px;
+}
+
+.type-name {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 8px;
+}
+.type-name:focus-within {
+  border-color: rgb(255, 124, 89);
+  outline: none;
+}
+
+.button-modal {
+  width: 200px;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 124, 89);
+  border-radius: 8px;
+  border-color: transparent;
+}
+.button-modal:focus-within {
+  border-color: rgb(255, 124, 89);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  outline: none;
+}
+
+.card-one-book {
+  display: flex;
+}
+
+.image-of-book {
+  width: 396px;
+}
+
+.about-book {
+  margin-left: 10px;
+  padding: 10px;
+  /* outline: 1px solid tomato; */
+}
+
+.main-container-book {
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.container-prise-book {
+  min-width: 290px;
+  padding: 15px;
+  margin-left: auto;
+  /* outline: 1px solid blueviolet; */
+}
+
+.price-book {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-quantity-book {
+  display: inline-block;
+  position: relative;
+}
+
+.quantity-book-style {
+  margin-right: 10px;
+}
+
+.quantity-book {
+  width: 35px;
+  height: 20px;
+  border: 1px solid var(--accent-color);
+}
+
+.button-box {
+  display: flex;
+  justify-content: center;
+}
+
+.user-auth-navigation {
+  margin-left: auto;
+  display: flex;
+  /* outline: 1px solid tomato; */
+}
+
+.main-user-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.main-user-navigation .list-user-navigation + .list-user-navigation {
+  margin-left: 20px;
+}
+
+.user-image {
+  border-radius: 40;
+}
+
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header-position {
+  display: flex;
+  align-items: center;
+}
+
+.store-style {
+  margin: 0;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header-title-style {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--black-background-color);
+}
+
+body {
+  /* margin: 0; */
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: var(--primary-color);
+  letter-spacing: var(--main-letter-spacing);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.padding {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.list-user-button {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 38px;
+  border-radius: 8px;
+  border: none;
+  min-width: 150px;
+  min-height: 40px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 124, 89);
+}
+.list-user-button:focus-within {
+  border-color: var(--accent-color);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  outline: none;
+}/*# sourceMappingURL=main.css.map */

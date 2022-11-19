@@ -1,0 +1,21 @@
+.user-auth-navigation {
+    margin-left: auto;
+    display: flex;
+    /* outline: 1px solid tomato; */
+
+}
+
+
+.main-user-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.main-user-navigation .list-user-navigation+.list-user-navigation {
+
+    margin-left: 20px;
+}
+
+.user-image {
+    border-radius: 40;
+}

@@ -1,0 +1,55 @@
+.card-one-book {
+    display: flex;
+
+}
+
+.image-of-book {
+    width: 396px;
+}
+
+.about-book {
+    margin-left: 10px;
+    padding: 10px;
+    /* outline: 1px solid tomato; */
+}
+
+.main-container-book {
+
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.container-prise-book {
+    min-width: 290px;
+    padding: 15px;
+    margin-left: auto;
+    /* outline: 1px solid blueviolet; */
+
+}
+
+.price-book {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-quantity-book {
+    display: inline-block;
+    position: relative;
+
+}
+
+.quantity-book-style {
+    margin-right: 10px;
+}
+
+.quantity-book {
+    width: 35px;
+    height: 20px;
+    border: 1px solid var(--accent-color);
+
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+}
